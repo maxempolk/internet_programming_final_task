@@ -1,0 +1,41 @@
+#skills{
+
+}
+
+.skills__content{
+    display: flex;
+    gap: 50px;
+}
+
+.skills__paragraph{
+    margin: 25px 0;
+}
+
+.skills__langs__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skills__langs__row{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__langs__row li{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border-color);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.skills__langs__row li:hover{
+    background-color: var(--border-color);
+    filter: brightness(75%);
+}

@@ -1,0 +1,60 @@
+.comments__items{
+    display: flex;
+    gap: 40px;
+    margin-top: 75px;
+}
+
+.comments__item{
+    background-color: white;
+    color: black;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.comments__items__text{
+    margin-top: 15px;
+}
+
+.comments__items__author{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.comments__items__author img{
+    width: 72px;
+    height: 72px;
+}
+
+.comments__items__author__info__name{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.comments__items__author__info__work{
+    font-size: 1em;
+}
+
+.carousel-indicator{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 7px;
+}
+
+.carousel-line{
+    width: 20px;
+    background-color: var(--secondary-color);
+    height: 5px;
+    border-radius: 10px;
+    filter: brightness(60%);
+}
+
+.carousel-active-line{
+    width: 40px;
+    background-color: var(--secondary-color);
+    filter: brightness(100%);
+}

@@ -1,0 +1,38 @@
+:root {
+    --base-background-color: #212529;
+    --secondary-color: #FFB742;
+    --border-color: #383E45;
+    --border-color-dark: #292B2E;
+    --footer-color: #1C1C1C;
+
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+    --font-tertiary: 'Inter', sans-serif;
+    --base-font-color: white;
+
+    --font-size-base: 16px;
+    --font-size-heading: 2rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --section-margin: 75px;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    color: var(--base-font-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-tertiary);
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-bold);
+}
+
+p, a, span {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-base);
+}

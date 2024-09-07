@@ -1,0 +1,74 @@
+@media (max-width: 480px) {
+    .hero{
+        font-size: 18px;
+    }
+    .container{
+        padding: 0 15px;
+        margin-top: 150px;
+    }
+
+    header{
+        margin-top: 50px !important;
+    }
+
+    .about-me__cover-img{
+        width: 100%;
+    }
+
+    #project-intro{
+        display: none;
+    }
+
+
+    .meter__item{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meter__item__cover{
+        width: 128px;
+    }
+
+    .meter__item__icon img{
+        transform: rotate(90deg);
+        width: 64px;
+    }
+
+    .article-label{
+        margin: 30px auto;
+    }
+
+    .about-me, .skills{
+        text-align: center;
+    }
+
+    .comments__items__author{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .comments__items__author__cover{
+        width: min-content;
+        order: 1;
+    }
+
+    .comments__items__author__info{
+        order: 2;
+    }
+    .comments__items__author__info__work{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-info__useful-social{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter{
+        display: none;
+    }
+}

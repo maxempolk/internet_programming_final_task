@@ -1,0 +1,141 @@
+@media (max-width: 1024px) {
+    :root{
+        --font-size-base: 24px;
+    }
+
+    .container{
+        padding: 0 2rem;
+    }
+
+    #header nav{
+        display: none;
+    }
+
+    #header .button--hire{
+        display: none;
+    }
+
+    #header .header__burger{
+        display: block;
+    }
+
+    #meter{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .meter_item_link{
+        width: 90vw;
+    }
+
+    .button--hire{
+        margin: 0 auto;
+        width: 90vw;
+        text-align: center;
+    }
+
+    #about-me{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .about-me__cover{
+        order: 2;
+    }    
+
+    .about-me__content{
+        order: 1;
+    }
+
+    .skills__content{
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .my-works__sections{
+        flex-direction: column;
+        text-align: center;
+    }
+    .my-works__sections li{
+        padding: 10px 0;
+    }
+    
+    .my-works__examples{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-works__examples .item-4, .my-works__examples .item-5, .my-works__examples .item-6{
+        display: none;
+    }
+
+    .comments__items{
+        flex-direction: column;
+    }
+
+    .comments__item_stars{
+        display: flex;
+        justify-content: center;
+    }
+
+    .comments__item_stars img{
+        width: 32px;
+    }
+
+    .comments__items__author{
+        display: flex;
+        justify-content: end;
+        font-size: 1em;
+    }
+
+    .comments__items__author__cover{
+        order: 2;
+    }
+
+    .about-me__cover{
+        justify-content: center;
+    }
+
+    .about-me__cover-img{
+        width: 80%;
+    }
+
+    .comments__items__author__info{
+        order: 1;
+        text-align: right;
+    }
+
+    .project-intro__append-text{
+        display: none;
+    }
+
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info__base{
+        text-align: center;
+    }
+
+    .footer-info__useful-social{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .newsletter{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .newsletter .input-block{
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 90vw;
+    }
+}

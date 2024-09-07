@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/meter.css">
+    <link rel="stylesheet" href="./assets/css/about_me.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/my_works.css">
+    <link rel="stylesheet" href="./assets/css/comments.css">
+    <link rel="stylesheet" href="./assets/css/project-intro.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <link rel="stylesheet" href="./assets/css/tablet.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+</head>
+<body>
+    <header class="container">
+        <div id="header" class="header">
+            <a href="#">
+                <img src="./assets/images/logo.svg" alt="Portfolio" class="header__logo">
+            </a>
+
+            <nav>
+                <ul class="header__navigation">
+                    <li class="header__navigation-item header__navigation-item--active"> <a href="#">home</a> </li>
+                    <li class="header__navigation-item"> <a href="#">about</a> </li>
+                    <li class="header__navigation-item"> <a href="#">skills</a> </li>
+                    <li class="header__navigation-item"> <a href="#">portfolio</a> </li>
+                    <li class="header__navigation-item"> <a href="#">contact</a> </li>
+                </ul>
+            </nav>
+
+            <a href="#" class="button--hire">Hire me</a>
+
+            <a href="#" id="header__burger" class="header__burger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <div class="header__pop-up__background" id = "header__pop-up__background"></div>
+            <div id="header__pop-up" class="header__pop-up">
+                <ul class="header__pop-up__items">
+                    <li class="header__pop-up__item header__pop-up__item-title"><a href="#">Menu</a></li>
+                    <li class="header__pop-up__item"><a href="#">home</a></li>
+                    <li class="header__pop-up__item"><a href="#">about</a></li>
+                    <li class="header__pop-up__item"><a href="#">skills</a></li>
+                    <li class="header__pop-up__item"><a href="#">portfolio</a></li>
+                    <li class="header__pop-up__item"><a href="#">contact</a></li>
+                    <li class="header__pop-up__item"><a href="#">hire me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div id="hero" class="hero">
+            <h1 class="hero__greeting">
+                Hi, I am <a href="#" class="hero__name">Kartik Bansal</a> 👋
+            </h1>
+            <h2 class="hero__role">Creative Designer & Front-end Developer</h2>
+            <p class="hero__description">I design and code beautifully simple things, and I love what I do.</p>
+
+            <img src="./assets/images/hero-avatar.svg" alt="avatar" class="hero__avatar">
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="meter" class="meter">
+            <a href="#" class="meter_item_link">
+                <article class="meter__item">
+                <div class="meter__item__image">
+                    <img src="./assets/images/meter__cover1.svg" alt="Cover image" class="meter__item__cover">
+                </div>
+                <div class="meter__item__content">
+                    <p class="meter__item__content-yellow">5+</p>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="meter__item__icon">
+                    <img src="./assets/images/entypo_chevron-right.svg" alt="Right chevron icon">
+                </div>
+                </article>
+            </a>
+            <a href="#" class="meter_item_link">
+                <article class="meter__item">
+                    <div class="meter__item__image">
+                    <img src="./assets/images/meter__cover2.svg" alt="Cover image" class="meter__item__cover">
+                    </div>
+                    <div class="meter__item__content">
+                    <p class="meter__item__content-yellow">100+</p>
+                    <p>Completed Projects</p>
+                    </div>
+                    <div class="meter__item__icon">
+                    <img src="./assets/images/entypo_chevron-right.svg" alt="Right chevron icon">
+                    </div>
+                </article>
+            </a>
+            <a href="#" class="meter_item_link">
+                <article class="meter__item">
+                    <div class="meter__item__image">
+                    <img src="./assets/images/meter__cover3.svg" alt="Cover image" class="meter__item__cover">
+                    </div>
+                    <div class="meter__item__content">
+                    <p class="meter__item__content-yellow">50+</p>
+                    <p>Happy Clients</p>
+                    </div>
+                    <div class="meter__item__icon">
+                    <img src="./assets/images/entypo_chevron-right.svg" alt="Right chevron icon">
+                    </div>
+                </article>
+            </a>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="about-me" class="about-me">
+            <div class="about-me__cover">
+                <img src="./assets/images/about_me.svg" alt="about_me" class="about-me__cover-img">
+            </div>
+            <div class="about-me__content">
+                <span class="article-label">
+                    who i am
+                </span>
+                <h2>
+                    About Me
+                </h2>
+                <p class="about-me__content__paragraph">Hi! I’m Kartik Bansal, and I’m a designer & developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.</p>
+
+                <a href="#" class="button--hire">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="skills" class="skills">
+          <span class="article-label">My Skills</span>
+          <div class="skills__content">
+            <div class="skills__text">
+              <h2>What My Programming<br>Skills Included?</h2>
+              <p class="skills__paragraph">I develop simple, intuitive, and responsive user interfaces that help users get things done with less effort and time using these technologies.</p>
+              <a href="#" class="button button--hire">Hire Me</a>
+            </div>
+            <div class="skills__langs">
+              <div class="skills__langs__container">
+                <ul class="skills__langs__row">
+                    <li><img src="./assets/images/html.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/css.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/js.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/git.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/bootstrap.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/xd.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/sass.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/ts.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/python.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/tailwind.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/figma.svg" alt="lang-icon"></li>
+                    <li><img src="./assets/images/git.svg" alt="lang-icon"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div id="my-works" class="my-works">
+            <span class="article-label center">my works</span>
+            <h1 class="center">Featured Works</h1>
+            <ul class="my-works__sections">
+                <li class="my-works__sections-item my-works__sections-item-active"><a href="#">All</a></li>
+                <li class="my-works__sections-item"><a href="#">Mobile App</a></li>
+                <li class="my-works__sections-item"><a href="#">Website Design</a></li>
+                <li class="my-works__sections-item"><a href="#">Website Development</a></li>
+            </ul>
+            <div class="my-works__examples">
+                <div class="my-works__examples__item item-1">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+                <div class="my-works__examples__item item-2">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+                <div class="my-works__examples__item item-3">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+                <div class="my-works__examples__item item-4">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+                <div class="my-works__examples__item item-5">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+                <div class="my-works__examples__item item-6">
+                    <a href="#"><img src="./assets/images/works_cover5.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="comments" class="comments">
+            <span class="article-label center">testimonials</span>
+            <h1 class="center">What customer says</h1>
+
+            <div class="comments__items">
+                <div class="comments__item">
+                    <div class="comments__item_stars">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                    </div>
+                    <p class="comments__items__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+                    </p>
+                    <div class="comments__items__author">
+                        <div class="comments__items__author__cover">
+                            <img src="./assets/images/customer_cover.svg" alt="#">
+                        </div>
+                        <div class="comments__items__author__info">
+                            <p class="comments__items__author__info__name">Khushi Gupta</p>
+                            <p class="comments__items__author__info__work">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item_stars">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                    </div>
+                    <p class="comments__items__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+                    </p>
+                    <div class="comments__items__author">
+                        <div class="comments__items__author__cover">
+                            <img src="./assets/images/customer_cover.svg" alt="#">
+                        </div>
+                        <div class="comments__items__author__info">
+                            <p class="comments__items__author__info__name">Khushi Gupta</p>
+                            <p class="comments__items__author__info__work">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments__item">
+                    <div class="comments__item_stars">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                        <img src="./assets/images/star.svg" alt="">
+                    </div>
+                    <p class="comments__items__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+                    </p>
+                    <div class="comments__items__author">
+                        <div class="comments__items__author__cover">
+                            <img src="./assets/images/customer_cover.svg" alt="#">
+                        </div>
+                        <div class="comments__items__author__info">
+                            <p class="comments__items__author__info__name">Khushi Gupta</p>
+                            <p class="comments__items__author__info__work">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-indicator">
+                <div class="carousel-line carousel-active-line"></div>
+                <div class="carousel-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="project-intro" class="project-intro">
+            <h2>Start a project</h2>
+            <p class="project-intro__append-text">Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+            <a href="#" class="project-intro__button">Let's do this</a>
+        </div>
+        <section class="footer-info">
+            <div class="footer-info__base">
+                <h2 class="footer-info__base__name">Kartik Bansal.</h2>
+                <p class="footer-info__base__position">Creative designer & front-end developer</p>
+            </div>
+            <div class="footer-info__useful-social">
+                <div class="footer-info__userful">
+                    <h2>Useful Links</h2>
+                    <ul class="footer-gray">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info__social">
+                    <h2>Social Media</h2>
+                    <ul class="footer-gray">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">linkedin</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                        <li><a href="#">Behance</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p class="footer-gray">Enter your email and get notified about news, of.</p>
+
+                <div class="input-block">
+                    <input type="text" placeholder="Your email address">
+                    <div class="post">
+                        <a href="#"><img src="./assets/images/plane.svg" alt="send-buton"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="./assets/js/header.js"></script>
+    <script src="https://kit.fontawesome.com/829441689e.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#project-intro{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: black;
+    align-items: center;
+    height: 174px;
+    border-radius: 15px;
+    padding: 57px 94px;
+    gap: 76px;
+    justify-content: space-between;
+
+    top: -90px;
+    position: absolute;
+    width: max-content;
+    max-width: 90vw;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.project-intro__button{
+    border: 1px solid black;
+    padding: 12px 40px;
+    border-radius: 100px;
+}
+
+.project-intro__button:hover{
+    background-color: black;
+    color: white;
+}
